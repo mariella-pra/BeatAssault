@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../Diplomprojekt_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../Diplomprojekt_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../Diplomprojekt_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{970E6BB3-628C-B0A1-0FE4-08FB45A391B2}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="4056684167" Name="Master"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="1520509566" Name="WinInstrument">
+					<States>
+						<State Id="443572615" Name="Sax"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1291433344" Name="Bass"/>
+						<State Id="1324340420" Name="Piano"/>
+						<State Id="2181839183" Name="Kick"/>
+						<State Id="3063529226" Name="Violin"/>
+						<State Id="3607016552" Name="Snare"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3983502639" Name="PlayerCount">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="846646256" Name="_0"/>
+						<State Id="846646257" Name="_1"/>
+						<State Id="846646258" Name="_2"/>
+						<State Id="846646259" Name="_3"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="244923953" Name="StartSax">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+						<Switch Id="846646259" Name="_3"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1320004250" Name="StartPiano">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2043131726" Name="StartBass">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3763135394" Name="StartSnare">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3814131104" Name="StartViolin">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+						<Switch Id="846646259" Name="_3"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1289618E-096A-4FDE-DA24-7836CDD32DE7}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="7962741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Violin\Snippets\2.wav</ShortName>
+					<CachePath>SFX/Patterns/Violin/Snippets/2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="35921864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Kick.wav</ShortName>
+					<CachePath>SFX/WinSounds/Kick_10C4C929.wem</CachePath>
+				</File>
+				<File Id="58518621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GamePause\Orainsula_Insert 16.wav</ShortName>
+					<CachePath>SFX/GamePause/Orainsula_Insert 16_F4A34D9B.wem</CachePath>
+				</File>
+				<File Id="65930483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Violin\Snippets\3.wav</ShortName>
+					<CachePath>SFX/Patterns/Violin/Snippets/3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="67367512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\PianoFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/PianoFumble_D81176FC.wem</CachePath>
+				</File>
+				<File Id="97024499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayBGMusic\Bass.wav</ShortName>
+					<CachePath>SFX/GameplayBGMusic/Bass_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="120592245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GamePause\Orainsula_Insert 18.wav</ShortName>
+					<CachePath>SFX/GamePause/Orainsula_Insert 18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120959968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Sax\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Sax/Snippets/0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="127913759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_UnClickable.wav</ShortName>
+					<CachePath>SFX/UI/UI_UnClickable_10C4C929.wem</CachePath>
+				</File>
+				<File Id="149237009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Hover.wav</ShortName>
+					<CachePath>SFX/UI/UI_Hover_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158855419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\JoinTom_1.wav</ShortName>
+					<CachePath>SFX/Lobby/JoinTom_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="163879217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayBGMusic\HiHat1.wav</ShortName>
+					<CachePath>SFX/GameplayBGMusic/HiHat1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="170720851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Bass.wav</ShortName>
+					<CachePath>SFX/WinSounds/Bass_10C4C929.wem</CachePath>
+				</File>
+				<File Id="171076997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Piano\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Piano/Snippets/0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="171275262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Snare\Snippets\2.wav</ShortName>
+					<CachePath>SFX/Patterns/Snare/Snippets/2_CE8EA0BA.wem</CachePath>
+				</File>
+				<File Id="174001939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GamePause\Orainsula_Insert 17.wav</ShortName>
+					<CachePath>SFX/GamePause/Orainsula_Insert 17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="196935419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Sax\Snippets\1.wav</ShortName>
+					<CachePath>SFX/Patterns/Sax/Snippets/1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="207117145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\ViolinFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/ViolinFumble_7650B564.wem</CachePath>
+				</File>
+				<File Id="244101302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayBGMusic\Straccio.wav</ShortName>
+					<CachePath>SFX/GameplayBGMusic/Straccio_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="246417316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Sax\Sax.wav</ShortName>
+					<CachePath>SFX/Patterns/Sax/Sax_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="295902280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Empty\Empty.wav</ShortName>
+					<CachePath>SFX/Empty/Empty_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="314401176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GamePause\Orainsula_Insert 14.wav</ShortName>
+					<CachePath>SFX/GamePause/Orainsula_Insert 14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319234128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\JoinTom_4.wav</ShortName>
+					<CachePath>SFX/Lobby/JoinTom_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323282238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Violin\Snippets\1.wav</ShortName>
+					<CachePath>SFX/Patterns/Violin/Snippets/1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="336095540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GamePause\Orainsula_Insert 15.wav</ShortName>
+					<CachePath>SFX/GamePause/Orainsula_Insert 15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348394866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Kick\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Kick/Snippets/0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="402590125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Violin\Violin.wav</ShortName>
+					<CachePath>SFX/Patterns/Violin/Violin_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="422643614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Sax\Snippets\2.wav</ShortName>
+					<CachePath>SFX/Patterns/Sax/Snippets/2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="430081571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Bass\Snippets\2.wav</ShortName>
+					<CachePath>SFX/Patterns/Bass/Snippets/2_A1177183.wem</CachePath>
+				</File>
+				<File Id="443700925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Snare\Snare.wav</ShortName>
+					<CachePath>SFX/Patterns/Snare/Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="468223575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Sax\Snippets\4.wav</ShortName>
+					<CachePath>SFX/Patterns/Sax/Snippets/4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="497845941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\StartGameButton.wav</ShortName>
+					<CachePath>SFX/Lobby/StartGameButton_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511734635" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Bass\Snippets\1.wav</ShortName>
+					<CachePath>SFX/Patterns/Bass/Snippets/1_61F9D15C.wem</CachePath>
+				</File>
+				<File Id="522238437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Piano\Piano.wav</ShortName>
+					<CachePath>SFX/Patterns/Piano/Piano_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="546564389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Snare.wav</ShortName>
+					<CachePath>SFX/WinSounds/Snare_10C4C929.wem</CachePath>
+				</File>
+				<File Id="574264198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Piano\AudiblePiano.wav</ShortName>
+					<CachePath>SFX/Patterns/Piano/AudiblePiano_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="622220930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Sax.wav</ShortName>
+					<CachePath>SFX/WinSounds/Sax_10C4C929.wem</CachePath>
+				</File>
+				<File Id="648753235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Violin\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Violin/Snippets/0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="651166916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\JoinTom_2.wav</ShortName>
+					<CachePath>SFX/Lobby/JoinTom_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="706522323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LobbyMusic\LobbyMusic.wav</ShortName>
+					<CachePath>SFX/LobbyMusic/LobbyMusic_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="709026292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\KickFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/KickFumble_F3FA18F6.wem</CachePath>
+				</File>
+				<File Id="718768914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Bass\Pattern.wav</ShortName>
+					<CachePath>SFX/Patterns/Bass/Pattern_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="729574633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\BassFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/BassFumble_3CF0FDEC.wem</CachePath>
+				</File>
+				<File Id="731613234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Violin.wav</ShortName>
+					<CachePath>SFX/WinSounds/Violin_10C4C929.wem</CachePath>
+				</File>
+				<File Id="749588340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Kick\Kick.wav</ShortName>
+					<CachePath>SFX/Patterns/Kick/Kick_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="754517858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Bass\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Bass/Snippets/0_11628894.wem</CachePath>
+				</File>
+				<File Id="780668584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Piano\Snippets\1.wav</ShortName>
+					<CachePath>SFX/Patterns/Piano/Snippets/1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="804823732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Snare\Snippets\1.wav</ShortName>
+					<CachePath>SFX/Patterns/Snare/Snippets/1_944F2B15.wem</CachePath>
+				</File>
+				<File Id="866557603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Patterns\Snare\Snippets\0.wav</ShortName>
+					<CachePath>SFX/Patterns/Snare/Snippets/0_4A314120.wem</CachePath>
+				</File>
+				<File Id="890717024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\JoinCrash.wav</ShortName>
+					<CachePath>SFX/Lobby/JoinCrash_10C4C929.wem</CachePath>
+				</File>
+				<File Id="925619336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\SnareFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/SnareFumble_B4E81D17.wem</CachePath>
+				</File>
+				<File Id="971929751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WinSounds\Piano.wav</ShortName>
+					<CachePath>SFX/WinSounds/Piano_10C4C929.wem</CachePath>
+				</File>
+				<File Id="976047343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayBGMusic\HiHat2.wav</ShortName>
+					<CachePath>SFX/GameplayBGMusic/HiHat2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="982837516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Select.wav</ShortName>
+					<CachePath>SFX/UI/UI_Select_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1021969532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lobby\JoinTom_3.wav</ShortName>
+					<CachePath>SFX/Lobby/JoinTom_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1063586248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GameplayBGMusic\SnareRim.wav</ShortName>
+					<CachePath>SFX/GameplayBGMusic/SnareRim_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1067630322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InstrumentFumbles\SaxFumble.wav</ShortName>
+					<CachePath>SFX/InstrumentFumbles/SaxFumble_00817529.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1291433344" Name="Bass" DurationType="OneShot" DurationMin="5.9343557" DurationMax="6.635717">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2043131726" Id="846646258"/>
+							<MediaRefs>
+								<MediaRef Id="430081571"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2043131726" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="754517858"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2043131726" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="511734635"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3474421731" Name="BassFumble" DurationType="OneShot" DurationMin="2.9018028" DurationMax="2.9018028">
+					<MediaRefs>
+						<MediaRef Id="729574633"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="479216828" Name="GameContinue" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="671786287" Name="GamePause" DurationType="OneShot" DurationMin="4.241468" DurationMax="4.340271">
+					<MediaRefs>
+						<MediaRef Id="58518621"/>
+						<MediaRef Id="120592245"/>
+						<MediaRef Id="174001939"/>
+						<MediaRef Id="314401176"/>
+						<MediaRef Id="336095540"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4058101365" Name="GameStart" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="97024499"/>
+						<MediaRef Id="163879217"/>
+						<MediaRef Id="244101302"/>
+						<MediaRef Id="295902280"/>
+						<MediaRef Id="976047343"/>
+						<MediaRef Id="1063586248"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2409465559" Name="GameStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1776280627" Name="GameWin" DurationType="OneShot" DurationMin="3.0836875" DurationMax="8.334333">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="1324340420"/>
+							<MediaRefs>
+								<MediaRef Id="971929751"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="443572615"/>
+							<MediaRefs>
+								<MediaRef Id="622220930"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="2181839183"/>
+							<MediaRefs>
+								<MediaRef Id="35921864"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="3607016552"/>
+							<MediaRefs>
+								<MediaRef Id="546564389"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="1291433344"/>
+							<MediaRefs>
+								<MediaRef Id="170720851"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1520509566" Id="3063529226" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="731613234"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3753593413" Name="Hover" DurationType="OneShot" DurationMin="0.84802765" DurationMax="0.99574614">
+					<MediaRefs>
+						<MediaRef Id="149237009"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2181839183" Name="Kick" DurationType="OneShot" DurationMin="1.7569375" DurationMax="1.7569375">
+					<MediaRefs>
+						<MediaRef Id="348394866"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3928080424" Name="KickFumble" DurationType="OneShot" DurationMin="2.2817585" DurationMax="2.2817585">
+					<MediaRefs>
+						<MediaRef Id="709026292"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3343302824" Name="NoInstrumentFumble" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3379262086" Name="NoInstrumentHit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1324340420" Name="Piano" DurationType="OneShot" DurationMin="3.726" DurationMax="4.859542">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1320004250" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="780668584"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1320004250" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="171076997"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1135953743" Name="PianoFumble" DurationType="OneShot" DurationMin="2.8638482" DurationMax="2.8638482">
+					<MediaRefs>
+						<MediaRef Id="67367512"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3875582670" Name="PlayerJoin" DurationType="OneShot" DurationMin="2.0227292" DurationMax="2.0227292">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3983502639" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="651166916"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3983502639" Id="846646258"/>
+							<MediaRefs>
+								<MediaRef Id="1021969532"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3983502639" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="158855419"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3983502639" Id="846646259"/>
+							<MediaRefs>
+								<MediaRef Id="319234128"/>
+								<MediaRef Id="890717024"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="443572615" Name="Sax" DurationType="OneShot" DurationMin="3.3541667" DurationMax="3.7083333">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="244923953" Id="846646258"/>
+							<MediaRefs>
+								<MediaRef Id="422643614"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="244923953" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="196935419"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="244923953" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="120959968"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="244923953" Id="846646259"/>
+							<MediaRefs>
+								<MediaRef Id="468223575"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1936994688" Name="SaxFumble" DurationType="OneShot" DurationMin="2.2194417" DurationMax="2.2194417">
+					<MediaRefs>
+						<MediaRef Id="1067630322"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1432588725" Name="Select" DurationType="OneShot" DurationMin="0.72964644" DurationMax="0.844461">
+					<MediaRefs>
+						<MediaRef Id="982837516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3607016552" Name="Snare" DurationType="OneShot" DurationMin="3.9139388" DurationMax="5.0236125">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3763135394" Id="846646258"/>
+							<MediaRefs>
+								<MediaRef Id="171275262"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3763135394" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="804823732"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3763135394" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="866557603"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="858660299" Name="SnareFumble" DurationType="OneShot" DurationMin="2.5165663" DurationMax="2.5165663">
+					<MediaRefs>
+						<MediaRef Id="925619336"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2043131726" Name="StartBass" DurationType="OneShot" DurationMin="14.180667" DurationMax="14.180667">
+					<MediaRefs>
+						<MediaRef Id="718768914"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1651515387" Name="StartButton" DurationType="OneShot" DurationMin="6.010625" DurationMax="6.010625">
+					<MediaRefs>
+						<MediaRef Id="497845941"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1544017333" Name="StartKick" DurationType="OneShot" DurationMin="11" DurationMax="11">
+					<MediaRefs>
+						<MediaRef Id="749588340"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1861621642" Name="StartLobbyMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="706522323"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1320004250" Name="StartPiano" DurationType="OneShot" DurationMin="14.005333" DurationMax="14.005333">
+					<MediaRefs>
+						<MediaRef Id="522238437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2990123148" Name="StartPianoAudible" DurationType="OneShot" DurationMin="13.92" DurationMax="13.92">
+					<MediaRefs>
+						<MediaRef Id="574264198"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="244923953" Name="StartSax" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="246417316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3763135394" Name="StartSnare" DurationType="OneShot" DurationMin="13.013875" DurationMax="13.013875">
+					<MediaRefs>
+						<MediaRef Id="443700925"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3814131104" Name="StartViolin" DurationType="OneShot" DurationMin="16.333332" DurationMax="16.333332">
+					<MediaRefs>
+						<MediaRef Id="402590125"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2036410168" Name="StopBass" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2066293655" Name="StopKick" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3675974108" Name="StopLobbyMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4024332668" Name="StopPiano" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3239805151" Name="StopSax" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="514806976" Name="StopSnare" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="825056626" Name="StopViolin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3376018208" Name="Unclickable" DurationType="OneShot" DurationMin="0.5768279" DurationMax="0.6580243">
+					<MediaRefs>
+						<MediaRef Id="127913759"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3063529226" Name="Violin" DurationType="OneShot" DurationMin="3.8541667" DurationMax="3.9791667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3814131104" Id="846646259"/>
+							<MediaRefs>
+								<MediaRef Id="65930483"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3814131104" Id="846646258"/>
+							<MediaRefs>
+								<MediaRef Id="7962741"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3814131104" Id="846646257"/>
+							<MediaRefs>
+								<MediaRef Id="323282238"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3814131104" Id="846646256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="648753235"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="53243757" Name="ViolinFumble" DurationType="OneShot" DurationMin="3.262683" DurationMax="3.262683">
+					<MediaRefs>
+						<MediaRef Id="207117145"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1520509566" Name="WinInstrument">
+					<States>
+						<State Id="443572615" Name="Sax"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1291433344" Name="Bass"/>
+						<State Id="1324340420" Name="Piano"/>
+						<State Id="2181839183" Name="Kick"/>
+						<State Id="3063529226" Name="Violin"/>
+						<State Id="3607016552" Name="Snare"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3983502639" Name="PlayerCount">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="846646256" Name="_0"/>
+						<State Id="846646257" Name="_1"/>
+						<State Id="846646258" Name="_2"/>
+						<State Id="846646259" Name="_3"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="244923953" Name="StartSax">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+						<Switch Id="846646259" Name="_3"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1320004250" Name="StartPiano">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2043131726" Name="StartBass">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3763135394" Name="StartSnare">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3814131104" Name="StartViolin">
+					<Switches>
+						<Switch Id="846646256" Name="_0"/>
+						<Switch Id="846646257" Name="_1"/>
+						<Switch Id="846646258" Name="_2"/>
+						<Switch Id="846646259" Name="_3"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{446C66E3-373D-9382-A1F3-478CD7E20281}</FileHash>
+</SoundBanksInfo>

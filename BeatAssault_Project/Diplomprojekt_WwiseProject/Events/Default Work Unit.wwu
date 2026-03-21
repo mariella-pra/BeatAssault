@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Gameplay" ID="{7D9D62AE-E135-4A3A-9D6F-BAA9A7B3AAF4}" ShortID="424409853">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="GameStart" ID="{EDDABA02-52B0-43ED-B3F3-0C3517BF06D7}">
+							<ChildrenList>
+								<Action Name="" ID="{2C704A0F-1544-45BD-BC24-A533B1D0C60D}" ShortID="516836940">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Indicator_Manager" ID="{D562B324-592A-45C2-9B5A-709BFB7796AD}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C6D73FAE-67C1-45C1-991F-A77078C45B20}" ShortID="1065918037">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_Music" ID="{DB6F9CC3-76E1-4673-843D-83730E57FD7A}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C6CAA3DA-8DAE-4866-A657-15BA0DB469CD}" ShortID="1050014460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewBeat_Manager" ID="{AF5A65E5-1E01-4638-BC6C-CC52D385454E}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameStop" ID="{584FAE99-3829-4E35-B30C-4F6DC945BA45}">
+							<ChildrenList>
+								<Action Name="" ID="{910825EC-7A6A-4238-B766-9A09D10E0762}" ShortID="237444145">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Indicator_Manager" ID="{D562B324-592A-45C2-9B5A-709BFB7796AD}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{631F89DC-BDEB-4801-9A9D-0296BA5A8676}" ShortID="937033389">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{11BC8304-75D1-439D-81B5-5B09171DFA78}" ShortID="68513369">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D532CAE6-9072-4445-AF89-46DD90DF342C}" ShortID="954332885">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E4192753-1878-49FE-842D-8ADBC31BAEF9}" ShortID="1013447641">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{52E6BA7A-E16A-48CE-8C2A-D1CCA2440E08}" ShortID="180314501">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewBeat_Manager" ID="{AF5A65E5-1E01-4638-BC6C-CC52D385454E}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6654ECFD-81BE-4A19-8360-560DA05585BC}" ShortID="373793772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_Music" ID="{DB6F9CC3-76E1-4673-843D-83730E57FD7A}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5636875C-EBD3-4FD9-8241-209E646DE596}" ShortID="359504882">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{A2C935AC-9721-4D73-AAF4-4E2DDE5E02D3}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{94E9AC3E-E823-466A-8C4D-487C2F28ADBC}" ShortID="736990058">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{54B72F4B-1994-44E8-9355-CC30BFDC0971}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2ACBF702-5A85-463A-8034-9844EBE3F89F}" ShortID="12343404">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{21D76FED-86F7-40D6-A8A3-98EF793D5D86}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E19FBC1-D754-4AA4-8ECE-61F903E67B37}" ShortID="1027698500">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{843B8E46-FE2D-44EE-8A98-E12DD109A328}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6BACFBB0-A765-4961-ADB2-47A1A0BEB5F6}" ShortID="111168625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{D18E2DA8-F8DB-4C09-AD10-BFD777B81AE7}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40A621FF-066F-4D4D-A27B-E7D2F9941747}" ShortID="462204300">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{68C9F88D-F651-4DEA-84B3-C25692FDA04C}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{78D0B0E5-6B14-43A1-A67D-998049FDF895}" ShortID="85267773">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FBE69211-0255-48CE-9941-DDC9BB0F40F7}" ShortID="687941070">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{78B0B88A-164F-4F5A-B909-1015D25662B2}" ShortID="990185524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{990541C2-1FCC-4D99-9F4A-9F516B958814}" ShortID="787267056">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{97376B18-C6EF-421D-ACA5-9616DC30C74D}" ShortID="535699164">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C866E012-AB88-40CB-AA40-416CB72FA11E}" ShortID="604218303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA69E433-5B4B-4144-8499-F32CF7D297AC}" ShortID="352876906">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Instruments" ID="{F66B58EC-78A7-4122-913A-AEA7BC47089E}" ShortID="257082280">
+							<ChildrenList>
+								<Folder Name="Violin" ID="{ADF36AB7-E139-470C-B074-4CD0053B4C27}" ShortID="644028394">
+									<ChildrenList>
+										<Event Name="StartViolin" ID="{8E95B061-6A15-4A6E-8200-B6F76BC69294}">
+											<ChildrenList>
+												<Action Name="" ID="{4EDCCB10-65D8-4E3D-B52C-87EFA5C4FB56}" ShortID="819918654">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopViolin" ID="{E84F1557-FDC5-4E0F-8605-031B33880C10}">
+											<ChildrenList>
+												<Action Name="" ID="{7476CC32-1A24-4F48-97A3-F60CAD37708A}" ShortID="767953609">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Violin" ID="{7F0357E2-3308-470A-A81D-B9773726F893}">
+											<ChildrenList>
+												<Action Name="" ID="{BE019F6B-50B9-4440-8AB0-9331892D61A7}" ShortID="465496517">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Violin" ID="{D18E2DA8-F8DB-4C09-AD10-BFD777B81AE7}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="ViolinFumble" ID="{D81A524B-F80F-4754-93B6-AC526D617B56}">
+											<ChildrenList>
+												<Action Name="" ID="{6F5F9796-7748-4D8D-9C40-00360C4E8C63}" ShortID="451194553">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="ViolinFumble" ID="{AE526E88-8E79-4863-9224-4D8EE180B944}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E5809DC6-A6CC-438B-A0D1-65301CAA1DE0}" ShortID="27012187">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Snare" ID="{D814ED9F-DE01-434B-89E0-7DCF54DF4D82}" ShortID="868938674">
+									<ChildrenList>
+										<Event Name="StartSnare" ID="{60A94E52-DFA6-4E24-BA78-68CC787638BB}">
+											<ChildrenList>
+												<Action Name="" ID="{2A1906E5-9D74-4715-9D66-EAA81F203872}" ShortID="142580931">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Snare" ID="{72A6D627-447B-4536-8471-0207B93DDDAF}">
+											<ChildrenList>
+												<Action Name="" ID="{8B5DD40E-DF96-460A-BF62-4FFE56E7026E}" ShortID="722622761">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snare" ID="{843B8E46-FE2D-44EE-8A98-E12DD109A328}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopSnare" ID="{6917D50F-C6BF-4977-9440-792EA7C400F0}">
+											<ChildrenList>
+												<Action Name="" ID="{14D0058F-95ED-4FC0-8CFB-B870F53261C5}" ShortID="924579290">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="SnareFumble" ID="{01EA6666-F4AC-4B22-86CB-4DAB00B64880}">
+											<ChildrenList>
+												<Action Name="" ID="{45C48266-5FD0-4A31-82EE-4B79696C0852}" ShortID="114928057">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SnareFumble" ID="{78F33A6C-CA4E-486C-985B-A7BAAB0F3D02}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{F063EBC3-D18E-4734-BCB3-411E648082FE}" ShortID="138531049">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Sax" ID="{D9F2D9AD-51C7-4DEF-ADC7-13B406E77B46}" ShortID="239433347">
+									<ChildrenList>
+										<Event Name="Sax" ID="{F9D584C1-1DA3-4DD1-B6BC-F409712BB6D9}">
+											<ChildrenList>
+												<Action Name="" ID="{18D2B061-9424-47C9-8809-845E13A8B877}" ShortID="865981626">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Sax" ID="{21D76FED-86F7-40D6-A8A3-98EF793D5D86}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StartSax" ID="{8EF661D7-6B16-4DE6-B870-6540E6BF5B14}">
+											<ChildrenList>
+												<Action Name="" ID="{15244411-A48F-40C7-8295-9417C969FE53}" ShortID="496147937">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopSax" ID="{16812AFC-4E48-4BB7-ACED-9C6A9C637F71}">
+											<ChildrenList>
+												<Action Name="" ID="{F1C66AC5-694A-443E-AB99-0A2AA825AD0A}" ShortID="704027002">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="SaxFumble" ID="{E497B6A7-8AF9-4B38-98F8-2D8387F9F709}">
+											<ChildrenList>
+												<Action Name="" ID="{C9C62780-0584-4562-9F4F-79D4FAC44CA6}" ShortID="619153476">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SaxFumble" ID="{C7769293-D283-4E48-A8F8-3FFFCEC9FBF9}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{A7506272-D522-497F-8393-E2C8D8B29820}" ShortID="453927861">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Piano" ID="{2A1F78F0-0DEB-4E84-8D80-817BAEB49330}" ShortID="1021005327">
+									<ChildrenList>
+										<Event Name="StartPiano" ID="{C7406314-FE10-4E03-AFAE-27CA79B1B468}">
+											<ChildrenList>
+												<Action Name="" ID="{FAC7E0D9-03B2-419E-B58B-77C7D0645C04}" ShortID="886347199">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopPiano" ID="{38FA2597-5026-41FC-AB54-FF7E06BE2E7F}">
+											<ChildrenList>
+												<Action Name="" ID="{076946D6-6D1B-488B-BE19-B2A293BEBB72}" ShortID="902670648">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E597F46E-C707-46A8-B033-A935B442AE29}" ShortID="776102907">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Piano" ID="{51292D0E-51B3-43A5-A700-B8D33BFDC6D2}">
+											<ChildrenList>
+												<Action Name="" ID="{04FE70B9-387E-4069-99E4-A4CFAEAC623E}" ShortID="446923797">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Piano" ID="{54B72F4B-1994-44E8-9355-CC30BFDC0971}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StartPianoAudible" ID="{EEE4292A-AC81-4E3E-99D1-8F1A4E670D0E}">
+											<ChildrenList>
+												<Action Name="" ID="{69B999DF-F45E-4006-97DF-59F79D9988DE}" ShortID="146332595">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="PianoFumble" ID="{FDB9DE8E-8BE2-4E1A-A0F8-8D09828D910B}">
+											<ChildrenList>
+												<Action Name="" ID="{98EC2461-CAE3-43C3-87FC-57ACB3D835B9}" ShortID="45623153">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PianoFumble" ID="{57914ADD-A68B-47E8-B258-4B6CB1F13ED2}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{9310B5B7-F5A3-46B6-8B11-AB4E27836837}" ShortID="445488741">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{913A4485-3D5F-47AE-8B80-50B647356998}" ShortID="1047035133">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Kick" ID="{8ACF884D-DCF8-4E3B-AC5E-CB3C4E0D560E}" ShortID="18106165">
+									<ChildrenList>
+										<Event Name="Kick" ID="{64A40CB5-AAA3-4F41-89EF-2BAF650239F3}">
+											<ChildrenList>
+												<Action Name="" ID="{AAE098F3-D00B-42C5-84A4-1AB6B7223835}" ShortID="757639579">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kick" ID="{68C9F88D-F651-4DEA-84B3-C25692FDA04C}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StartKick" ID="{DBB7D736-8C51-4FD3-9902-9261F5391CB8}">
+											<ChildrenList>
+												<Action Name="" ID="{FBF2D769-4126-4AFC-AFF3-4221D0AE264E}" ShortID="1022276599">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopKick" ID="{2D60F77F-07AD-44C3-ADB1-50DFC85BE36E}">
+											<ChildrenList>
+												<Action Name="" ID="{40D50EF1-2C50-4D0E-BD17-CC2389103CB3}" ShortID="1008240852">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="KickFumble" ID="{6E1D8D56-7E78-445E-AFB2-9834C4486EC0}">
+											<ChildrenList>
+												<Action Name="" ID="{E54F32CB-0FA2-463D-A5B4-22154A0F8891}" ShortID="1035079824">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="KickFumble" ID="{E70126F3-DDCF-41FF-B3FD-B59F8A211DCC}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{08B7B542-4C1B-453A-BCFF-4143B395F090}" ShortID="821566310">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Bass" ID="{180A9F7A-1115-45E5-9B8A-2111363985BD}" ShortID="728436040">
+									<ChildrenList>
+										<Event Name="Bass" ID="{0005340B-0EF3-4A52-8687-E78F47A77FDB}">
+											<ChildrenList>
+												<Action Name="" ID="{C56842EE-2917-4294-96F3-D25B0B6AA155}" ShortID="682446659">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bass" ID="{A2C935AC-9721-4D73-AAF4-4E2DDE5E02D3}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StartBass" ID="{CFCC9BBC-FA04-4439-9059-8CD236421F9C}">
+											<ChildrenList>
+												<Action Name="" ID="{86AAC46E-9F6A-4533-B562-4A03C0B1BD57}" ShortID="110291870">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="StopBass" ID="{555273D4-836F-4D81-ACC1-31763750F6AD}">
+											<ChildrenList>
+												<Action Name="" ID="{5C0BA778-93C2-48D2-AD22-9B1F2426891E}" ShortID="289556580">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="BassFumble" ID="{903D226C-98F1-43EF-8903-5624CE308891}">
+											<ChildrenList>
+												<Action Name="" ID="{FBFD890E-A01E-4023-AE1A-A338008D0B4A}" ShortID="271804891">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BassFumble" ID="{A79F648C-9B41-4B56-9EFF-C5C0AE5D7EA3}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{CB1FDCE2-EBA9-448A-B1B1-1C061B8EBA80}" ShortID="528192845">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="_NoInstrument" ID="{AA0C50BD-8A39-43CA-A973-29B96EE6DF69}" ShortID="717412564">
+									<ChildrenList>
+										<Event Name="NoInstrumentFumble" ID="{7B1FF033-B635-434E-A130-BA7E6844C430}"/>
+										<Event Name="NoInstrumentHit" ID="{5773F4A6-9B75-4DB0-AD0A-A375DF2BDCA5}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Event Name="GamePause" ID="{C99EAC51-AC97-4FDF-A096-7F0D61F8C41A}">
+							<ChildrenList>
+								<Action Name="" ID="{D5BE16A0-CCDB-4793-B5D8-614FAA1B6DAC}" ShortID="627786905">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_Music" ID="{DB6F9CC3-76E1-4673-843D-83730E57FD7A}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{279BE984-D4E4-4867-AE54-EA190A06CD89}" ShortID="388724117">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3456C4D1-B326-4E2A-972A-4E6EA8657A4F}" ShortID="953908140">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{100922DE-5F73-4E06-BD5B-BADD7BA62861}" ShortID="249937015">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DBBC074C-7126-45A9-B83C-855DCCF53CA0}" ShortID="752750631">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40ABF08B-0695-427A-9F7F-89DB88CDAFB8}" ShortID="831228615">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FFACF930-583B-45F6-98D0-B03BD308FEE1}" ShortID="784874853">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{48C7B57C-653F-4EB3-85D1-ACC7B7969479}" ShortID="611294847">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FE9689DA-B1D9-403E-B1D1-23021D037D7C}" ShortID="527880647">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{A2C935AC-9721-4D73-AAF4-4E2DDE5E02D3}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9790248-B79B-4FD4-92C5-3788E8F37A89}" ShortID="2401187">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{54B72F4B-1994-44E8-9355-CC30BFDC0971}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{70D6109E-2A62-452A-8A6A-015CC8D233E5}" ShortID="904009895">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{21D76FED-86F7-40D6-A8A3-98EF793D5D86}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E729C69E-48B5-4F08-ACDA-2AE0055DF446}" ShortID="585362616">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{843B8E46-FE2D-44EE-8A98-E12DD109A328}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C98D06B9-D669-4242-98C3-0C16B8A6BFB1}" ShortID="528751906">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{D18E2DA8-F8DB-4C09-AD10-BFD777B81AE7}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E82DC16F-65F7-4141-B4EE-C951DF97F020}" ShortID="479115903">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{68C9F88D-F651-4DEA-84B3-C25692FDA04C}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{06533E88-FCD8-4761-933A-43ECC910D185}" ShortID="19400773">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Indicator_Manager" ID="{D562B324-592A-45C2-9B5A-709BFB7796AD}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6245BBE5-8D85-410A-8C01-D7640B2F8C08}" ShortID="149980029">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewBeat_Manager" ID="{AF5A65E5-1E01-4638-BC6C-CC52D385454E}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D149360A-CF12-4C26-A70D-F5711BB69FE6}" ShortID="717760738">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pause" ID="{A703CD9B-6F4D-4618-ACB1-B167AC18DB37}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameContinue" ID="{8843AD2E-7C3A-4559-A4DC-8E4DAB7452C2}">
+							<ChildrenList>
+								<Action Name="" ID="{58368D54-7F74-446C-A7E4-36D1898B109C}" ShortID="80889939">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG_Music" ID="{DB6F9CC3-76E1-4673-843D-83730E57FD7A}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{974DF14B-841C-4191-A77C-735A73064897}" ShortID="579600518">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{E982DAB1-378F-4672-8E76-EF16B401DEE8}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{76ED0CA0-BE93-48FE-9832-D9B47C97D1A4}" ShortID="479329375">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{7C84BC85-A344-4957-A395-B7262BD86574}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{41C7BA3C-8B23-492E-A3A2-366915D68D0E}" ShortID="686851077">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{2295E3D0-BF69-4FFE-9493-B6921C9F5337}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7DF001CF-EA26-4E2F-BA66-8EC6D9C48CC5}" ShortID="31996063">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PianoAudible" ID="{4838CD3B-8333-443D-B567-E64C6B2AE0C4}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F0B9DEA2-DA25-417B-BB61-232A353BA7A5}" ShortID="1042722893">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{3A05B696-453E-4A6A-B487-FC2B4CE67700}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{633A07D1-36C8-4F46-BFE5-061A082F1D3D}" ShortID="376698746">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{7806647C-3A08-49FE-9A9A-8FD5EBCBE71C}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F0CE2783-3CFC-4364-B3FC-E56924789211}" ShortID="819404161">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{21AB91B1-EA65-4EFB-A537-C8714A8FA8CE}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7C48023E-F3E2-4B22-A9F6-A46154944A8B}" ShortID="466368764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass" ID="{A2C935AC-9721-4D73-AAF4-4E2DDE5E02D3}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{327C2830-A8E9-4E6F-BE18-F67E7BBE4C93}" ShortID="332853830">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Piano" ID="{54B72F4B-1994-44E8-9355-CC30BFDC0971}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1F2F8578-89E5-4109-9F4D-0E71EA8E14E4}" ShortID="589761944">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sax" ID="{21D76FED-86F7-40D6-A8A3-98EF793D5D86}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C290725B-E729-4C22-93B8-C5466D74E5AD}" ShortID="44067614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snare" ID="{843B8E46-FE2D-44EE-8A98-E12DD109A328}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{271F2D37-3E25-44BA-9CD5-6E2FD9937167}" ShortID="238770528">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Violin" ID="{D18E2DA8-F8DB-4C09-AD10-BFD777B81AE7}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F030B71A-ED15-4F2B-A01D-023A0407D2B5}" ShortID="615561127">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kick" ID="{68C9F88D-F651-4DEA-84B3-C25692FDA04C}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EEBA4AAA-0DCE-487D-94E7-831E6660A6E2}" ShortID="81038753">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Indicator_Manager" ID="{D562B324-592A-45C2-9B5A-709BFB7796AD}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EAF279C9-2882-4208-BA9A-7C2B3EDF8193}" ShortID="814143671">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewBeat_Manager" ID="{AF5A65E5-1E01-4638-BC6C-CC52D385454E}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameWin" ID="{75686F05-E779-443B-B996-3075A565530B}">
+							<ChildrenList>
+								<Action Name="" ID="{BAB6CFB5-E477-4CFE-A1A6-99EE956044EC}" ShortID="281668101">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Win" ID="{0787577E-807F-4C32-A7B7-40A6B7003A90}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lobby" ID="{E3F4548F-9585-498D-92D1-CE08438242A8}" ShortID="916454815">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="StartLobbyMusic" ID="{86565B51-489D-4CAB-8153-FD4823D38EA6}">
+							<ChildrenList>
+								<Action Name="" ID="{3BF21383-4246-4D09-A2EB-52D1E9F54A1B}" ShortID="80946229">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbyMusic" ID="{D14DC4C4-B30D-4433-8781-A8F7BE76BB94}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopLobbyMusic" ID="{85122170-EF3C-4994-89D9-1F4753570757}">
+							<ChildrenList>
+								<Action Name="" ID="{ACB749A0-C83C-4110-BDF3-0228D4607E00}" ShortID="436403221">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbyMusic" ID="{D14DC4C4-B30D-4433-8781-A8F7BE76BB94}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerJoin" ID="{0F12931F-8A8B-46ED-8532-F14501017755}">
+							<ChildrenList>
+								<Action Name="" ID="{A282E275-B0F3-4F53-9761-464415EE8F70}" ShortID="632548278">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerJoin" ID="{E3E629AE-E189-48E9-9C87-8B33AFF6F05C}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StartButton" ID="{5F1F1660-5DEA-42FF-81CA-EC6E5D203061}">
+							<ChildrenList>
+								<Action Name="" ID="{E963D775-D5E1-433E-A14F-1BDD945C06DC}" ShortID="872297658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StartGameButton" ID="{DBD676C0-453F-4E4A-8916-3A7726F27413}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C317FA20-4CFE-4D1F-8B68-72C46D406972}" ShortID="822464">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbyMusic" ID="{D14DC4C4-B30D-4433-8781-A8F7BE76BB94}" WorkUnitID="{D124256E-87AB-4367-BDE3-B7FD0B59B368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{30F28DE5-3EC6-4E2F-B5B9-9625D09F8173}" ShortID="585700041">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Select" ID="{E18A9AEA-F7D9-4425-9BC2-E32DA859E172}">
+							<ChildrenList>
+								<Action Name="" ID="{1CF243CD-D69B-4432-8C02-3A249A835FE8}" ShortID="986401409">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Select" ID="{36E9E210-C61E-45F1-852E-FCF00746475E}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover" ID="{E04BFB11-EA22-4BAF-9FA0-514359185A93}">
+							<ChildrenList>
+								<Action Name="" ID="{660E84AE-075B-4A3A-8BE0-46A202CB074E}" ShortID="560234888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Hover" ID="{7342E5B7-759A-40EB-8527-B1A3396F687F}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Unclickable" ID="{8A089375-CC4F-41FE-96EB-FA09A7498F7D}">
+							<ChildrenList>
+								<Action Name="" ID="{C7BE05C9-404F-40E8-BFD8-D7C4ABE6655B}" ShortID="765311021">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_UnClickable" ID="{925DC322-7CF2-4D30-AB07-6F333563B778}" WorkUnitID="{93894561-DFB7-451B-A05A-FAA1BAD7E53D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

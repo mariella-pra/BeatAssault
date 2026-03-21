@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E6A98EB-D8BF-4725-80E0-D10A497ACAFE}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{8E6A98EB-D8BF-4725-80E0-D10A497ACAFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Instruments" ID="{D44FFD8B-5C70-42A4-BB3A-C6E1BC2DE298}" ShortID="1013929259">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<SwitchGroup Name="StartSnare" ID="{7AF035E7-9512-4A9A-9C4A-663260795ECF}">
+							<ChildrenList>
+								<Switch Name="_0" ID="{193AC4D3-28D3-4BF9-9690-5945F070739D}"/>
+								<Switch Name="_1" ID="{D95BA448-D089-437F-B3F9-1B47554A25A6}"/>
+								<Switch Name="_2" ID="{6183CA20-41E0-4DDE-814D-453AF313B3CF}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="StartViolin" ID="{AAE80D90-AF8F-431B-838D-0C063BB6B565}">
+							<ChildrenList>
+								<Switch Name="_1" ID="{6C58DCA9-8484-4492-8163-E31C72311C8D}"/>
+								<Switch Name="_0" ID="{288675AE-EB54-45D5-BD11-EDE9208FB56A}"/>
+								<Switch Name="_2" ID="{94950D82-C547-445A-8F7F-06B89C4E8AA0}"/>
+								<Switch Name="_3" ID="{0486BF77-C404-469F-B89E-883F54B45A2A}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="StartSax" ID="{FC2FE79D-D616-4446-B049-4FAF1EEE7790}">
+							<ChildrenList>
+								<Switch Name="_0" ID="{FD0557A6-82A4-4855-B121-8C7D00859A4F}"/>
+								<Switch Name="_1" ID="{4EDFE86B-C489-4E6A-9E4E-5D533774C086}"/>
+								<Switch Name="_2" ID="{22066C4F-6686-44D1-9753-50A057B9C634}"/>
+								<Switch Name="_3" ID="{A776B8C4-E5AB-466F-966F-7A9F4C89FFAE}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="StartPiano" ID="{71228B8C-5C4B-4E01-B434-72F53DE5E461}">
+							<ChildrenList>
+								<Switch Name="_0" ID="{93CAC1E9-F1B6-4A1D-B944-1111B501741E}"/>
+								<Switch Name="_1" ID="{25862690-609F-4E28-B8C2-F0A0392FFBE8}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="StartBass" ID="{4F161387-741F-42D0-ADE9-2B242D6C9242}">
+							<ChildrenList>
+								<Switch Name="_0" ID="{EC738BA4-53ED-4A25-B8E1-90D73A956D90}"/>
+								<Switch Name="_1" ID="{85D0D9EC-F28F-45F9-9588-7AF78D6CB525}"/>
+								<Switch Name="_2" ID="{35289A3C-98DB-4578-A061-2C389A4E8556}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lobby" ID="{B3F1B3B5-F13A-4361-B2BA-471D7FF38BC4}" ShortID="943094280">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Envo
+  - SpawnPoint
+  - Ball Group
+  - Balls
+  - BackButton
+  - PlayButton
+  - UI1
+  - UI2
+  - UI3
+  - UI4
+  - joinMessage
+  - WinScreenSpawn
+  - WorldClipping
+  - INSTRUMENTS
+  - RESPAWNER
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Abilities
+  - Water
+  - UI
+  - Player
+  - Items
+  - Plants
+  - PostProcessing
+  - ground
+  - grass
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 3770226111
+    locked: 0
+  - name: OnTop
+    uniqueID: 4192698265
+    locked: 0

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E2D2596-072F-4890-8295-0639B10B5FDC}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6E2D2596-072F-4890-8295-0639B10B5FDC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Testing" ID="{56ED0016-EFBB-4BB0-A55E-1A2B94DA145D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Piano" ID="{51292D0E-51B3-43A5-A700-B8D33BFDC6D2}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Violin" ID="{7F0357E2-3308-470A-A81D-B9773726F893}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Kick" ID="{64A40CB5-AAA3-4F41-89EF-2BAF650239F3}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bass" ID="{0005340B-0EF3-4A52-8687-E78F47A77FDB}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameStart" ID="{EDDABA02-52B0-43ED-B3F3-0C3517BF06D7}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerJoin" ID="{0F12931F-8A8B-46ED-8532-F14501017755}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="0" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Sax" ID="{F9D584C1-1DA3-4DD1-B6BC-F409712BB6D9}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartPiano" ID="{C7406314-FE10-4E03-AFAE-27CA79B1B468}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartViolin" ID="{8E95B061-6A15-4A6E-8200-B6F76BC69294}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartKick" ID="{DBB7D736-8C51-4FD3-9902-9261F5391CB8}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GamePause" ID="{C99EAC51-AC97-4FDF-A096-7F0D61F8C41A}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartLobbyMusic" ID="{86565B51-489D-4CAB-8153-FD4823D38EA6}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="1" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopPiano" ID="{38FA2597-5026-41FC-AB54-FF7E06BE2E7F}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopViolin" ID="{E84F1557-FDC5-4E0F-8605-031B33880C10}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopKick" ID="{2D60F77F-07AD-44C3-ADB1-50DFC85BE36E}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameContinue" ID="{8843AD2E-7C3A-4559-A4DC-8E4DAB7452C2}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartButton" ID="{5F1F1660-5DEA-42FF-81CA-EC6E5D203061}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="2" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartPianoAudible" ID="{EEE4292A-AC81-4E3E-99D1-8F1A4E670D0E}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameStop" ID="{584FAE99-3829-4E35-B30C-4F6DC945BA45}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PianoFumble" ID="{FDB9DE8E-8BE2-4E1A-A0F8-8D09828D910B}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartKick" ID="{DBB7D736-8C51-4FD3-9902-9261F5391CB8}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameWin" ID="{75686F05-E779-443B-B996-3075A565530B}" WorkUnitID="{393875A4-343F-44C1-A7E9-5ECAD93F4DB9}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="_1" ID="{8665D667-2E59-4496-A8DF-5F870EF35D2D}"/>
+						<CurrentStateRef Name="None" ID="{8595F3D8-2B94-4912-BB3F-C312A71FF73B}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="_2" ID="{35289A3C-98DB-4578-A061-2C389A4E8556}"/>
+						<CurrentSwitchRef Name="_0" ID="{288675AE-EB54-45D5-BD11-EDE9208FB56A}"/>
+						<CurrentSwitchRef Name="_2" ID="{22066C4F-6686-44D1-9753-50A057B9C634}"/>
+						<CurrentSwitchRef Name="_0" ID="{193AC4D3-28D3-4BF9-9690-5945F070739D}"/>
+						<CurrentSwitchRef Name="_1" ID="{25862690-609F-4E28-B8C2-F0A0392FFBE8}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

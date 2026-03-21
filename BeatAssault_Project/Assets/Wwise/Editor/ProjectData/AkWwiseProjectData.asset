@@ -1,0 +1,2067 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018934464c404445865523ac008d297, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dd152251c550f049aaf52b7ef75b3094
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: dd152251c550f049aaf52b7ef75b3094
+    GuidInternal: 
+    m_lastTime: -8584678517574775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d54e6952ff1fad41aaafe32a8b1480c2
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: d54e6952ff1fad41aaafe32a8b1480c2
+    GuidInternal: 
+    m_lastTime: -8584678517614775808
+    List:
+    - name: Master
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d54e6952ff1fad41aaafe32a8b1480c2
+      - ElementName: Master
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4815cc44edfb8945934aeaabe051dc3d
+    ParentPath: SoundBanks/Default Work Unit
+    guid: 4815cc44edfb8945934aeaabe051dc3d
+    GuidInternal: 
+    m_lastTime: -8584636424394775808
+    List:
+    - name: Main
+      guid: 84af929bc3b3564595ac410e0d01d398
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4815cc44edfb8945934aeaabe051dc3d
+      - ElementName: Main
+        ObjectType: 7
+        guid: 84af929bc3b3564595ac410e0d01d398
+      Path: SoundBanks/Default Work Unit/Main
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a47538393f34c144a7e95ecad93f4db9
+    ParentPath: Events/Default Work Unit
+    guid: a47538393f34c144a7e95ecad93f4db9
+    GuidInternal: 
+    m_lastTime: -8584591871434775808
+    List:
+    - name: _NoInstrument
+      guid: bd500caa398aca43a97329b96ee6df69
+      id: 1053994806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: _NoInstrument
+        ObjectType: 4
+        guid: bd500caa398aca43a97329b96ee6df69
+      Path: Events/Default Work Unit/Gameplay/Instruments/_NoInstrument
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bass
+      guid: 0b340500f30e524a8687e78f47a77fdb
+      id: 1291433344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 7a9f0a181511e5459b8a2111363985bd
+      - ElementName: Bass
+        ObjectType: 3
+        guid: 0b340500f30e524a8687e78f47a77fdb
+      Path: Events/Default Work Unit/Gameplay/Instruments/Bass/Bass
+      maxAttenuation: 0
+      maxDuration: 6.635717
+      minDuration: 5.9343557
+    - name: Bass
+      guid: 7a9f0a181511e5459b8a2111363985bd
+      id: 1291433344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 7a9f0a181511e5459b8a2111363985bd
+      Path: Events/Default Work Unit/Gameplay/Instruments/Bass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BassFumble
+      guid: 6c223d90f198ef4389035624ce308891
+      id: 3474421731
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 7a9f0a181511e5459b8a2111363985bd
+      - ElementName: BassFumble
+        ObjectType: 3
+        guid: 6c223d90f198ef4389035624ce308891
+      Path: Events/Default Work Unit/Gameplay/Instruments/Bass/BassFumble
+      maxAttenuation: 0
+      maxDuration: 2.9018028
+      minDuration: 2.9018028
+    - name: GameContinue
+      guid: 2ead43883a7c5945a4dc8e4dab7452c2
+      id: 479216828
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: GameContinue
+        ObjectType: 3
+        guid: 2ead43883a7c5945a4dc8e4dab7452c2
+      Path: Events/Default Work Unit/Gameplay/GameContinue
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: GamePause
+      guid: 51ac9ec997acdf4fa0967f0d61f8c41a
+      id: 671786287
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: GamePause
+        ObjectType: 3
+        guid: 51ac9ec997acdf4fa0967f0d61f8c41a
+      Path: Events/Default Work Unit/Gameplay/GamePause
+      maxAttenuation: 0
+      maxDuration: 4.340271
+      minDuration: 4.241468
+    - name: Gameplay
+      guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      Path: Events/Default Work Unit/Gameplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameStart
+      guid: 02badaedb052ed43b3f30c3517bf06d7
+      id: 4058101365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: GameStart
+        ObjectType: 3
+        guid: 02badaedb052ed43b3f30c3517bf06d7
+      Path: Events/Default Work Unit/Gameplay/GameStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameStop
+      guid: 99ae4f582938354eb30c4f6dc945ba45
+      id: 2409465559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: GameStop
+        ObjectType: 3
+        guid: 99ae4f582938354eb30c4f6dc945ba45
+      Path: Events/Default Work Unit/Gameplay/GameStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: GameWin
+      guid: 056f687579e73b44b9963075a565530b
+      id: 1776280627
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: GameWin
+        ObjectType: 3
+        guid: 056f687579e73b44b9963075a565530b
+      Path: Events/Default Work Unit/Gameplay/GameWin
+      maxAttenuation: 0
+      maxDuration: 8.334333
+      minDuration: 3.0836875
+    - name: Hover
+      guid: 11fb4be022eaaf4b9fa0514359185a93
+      id: 3753593413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: UI
+        ObjectType: 4
+        guid: e58df230c63e2f4eb5b99625d09f8173
+      - ElementName: Hover
+        ObjectType: 3
+        guid: 11fb4be022eaaf4b9fa0514359185a93
+      Path: Events/Default Work Unit/UI/Hover
+      maxAttenuation: 0
+      maxDuration: 0.99574614
+      minDuration: 0.84802765
+    - name: Instruments
+      guid: ec586bf6a7782241913aaea7bc47089e
+      id: 559901361
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      Path: Events/Default Work Unit/Gameplay/Instruments
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Kick
+      guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      id: 2181839183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Kick
+        ObjectType: 4
+        guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      Path: Events/Default Work Unit/Gameplay/Instruments/Kick
+      maxAttenuation: 0
+      maxDuration: 1.7569375
+      minDuration: 1.7569375
+    - name: Kick
+      guid: b50ca464a3aa414f89ef2baf650239f3
+      id: 2181839183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Kick
+        ObjectType: 4
+        guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      - ElementName: Kick
+        ObjectType: 3
+        guid: b50ca464a3aa414f89ef2baf650239f3
+      Path: Events/Default Work Unit/Gameplay/Instruments/Kick/Kick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: KickFumble
+      guid: 568d1d6e787e5e44afb29834c4486ec0
+      id: 3928080424
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Kick
+        ObjectType: 4
+        guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      - ElementName: KickFumble
+        ObjectType: 3
+        guid: 568d1d6e787e5e44afb29834c4486ec0
+      Path: Events/Default Work Unit/Gameplay/Instruments/Kick/KickFumble
+      maxAttenuation: 0
+      maxDuration: 2.2817585
+      minDuration: 2.2817585
+    - name: Lobby
+      guid: 8f54f4e385958d4992d1ce08438242a8
+      id: 290285391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 8f54f4e385958d4992d1ce08438242a8
+      Path: Events/Default Work Unit/Lobby
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: NoInstrumentFumble
+      guid: 33f01f7b35b64e43a130ba7e6844c430
+      id: 3343302824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: _NoInstrument
+        ObjectType: 4
+        guid: bd500caa398aca43a97329b96ee6df69
+      - ElementName: NoInstrumentFumble
+        ObjectType: 3
+        guid: 33f01f7b35b64e43a130ba7e6844c430
+      Path: Events/Default Work Unit/Gameplay/Instruments/_NoInstrument/NoInstrumentFumble
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: NoInstrumentHit
+      guid: a6f47357759bb04dad0aa375df2bdca5
+      id: 3379262086
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: _NoInstrument
+        ObjectType: 4
+        guid: bd500caa398aca43a97329b96ee6df69
+      - ElementName: NoInstrumentHit
+        ObjectType: 3
+        guid: a6f47357759bb04dad0aa375df2bdca5
+      Path: Events/Default Work Unit/Gameplay/Instruments/_NoInstrument/NoInstrumentHit
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Piano
+      guid: 0e2d2951b351a543a700b8d33bfdc6d2
+      id: 1324340420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      - ElementName: Piano
+        ObjectType: 3
+        guid: 0e2d2951b351a543a700b8d33bfdc6d2
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano/Piano
+      maxAttenuation: 0
+      maxDuration: 4.859542
+      minDuration: 3.726
+    - name: Piano
+      guid: f0781f2aeb0d844e8d80817baeb49330
+      id: 1324340420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PianoFumble
+      guid: 8edeb9fde28b1a4ea0f88d09828d910b
+      id: 1135953743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      - ElementName: PianoFumble
+        ObjectType: 3
+        guid: 8edeb9fde28b1a4ea0f88d09828d910b
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano/PianoFumble
+      maxAttenuation: 0
+      maxDuration: 2.8638482
+      minDuration: 2.8638482
+    - name: PlayerJoin
+      guid: 1f93120f8b8aed468532f14501017755
+      id: 3875582670
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 8f54f4e385958d4992d1ce08438242a8
+      - ElementName: PlayerJoin
+        ObjectType: 3
+        guid: 1f93120f8b8aed468532f14501017755
+      Path: Events/Default Work Unit/Lobby/PlayerJoin
+      maxAttenuation: 0
+      maxDuration: 2.0227292
+      minDuration: 2.0227292
+    - name: Sax
+      guid: c184d5f9a31dd14db6bcf409712bb6d9
+      id: 443572615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Sax
+        ObjectType: 4
+        guid: add9f2d9c751ef4dadc713b406e77b46
+      - ElementName: Sax
+        ObjectType: 3
+        guid: c184d5f9a31dd14db6bcf409712bb6d9
+      Path: Events/Default Work Unit/Gameplay/Instruments/Sax/Sax
+      maxAttenuation: 0
+      maxDuration: 3.7083333
+      minDuration: 3.3541667
+    - name: Sax
+      guid: add9f2d9c751ef4dadc713b406e77b46
+      id: 443572615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Sax
+        ObjectType: 4
+        guid: add9f2d9c751ef4dadc713b406e77b46
+      Path: Events/Default Work Unit/Gameplay/Instruments/Sax
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SaxFumble
+      guid: a7b697e4f98a384b98f82d8387f9f709
+      id: 1936994688
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Sax
+        ObjectType: 4
+        guid: add9f2d9c751ef4dadc713b406e77b46
+      - ElementName: SaxFumble
+        ObjectType: 3
+        guid: a7b697e4f98a384b98f82d8387f9f709
+      Path: Events/Default Work Unit/Gameplay/Instruments/Sax/SaxFumble
+      maxAttenuation: 0
+      maxDuration: 2.2194417
+      minDuration: 2.2194417
+    - name: Select
+      guid: ea9a8ae1d9f725449bc2e32da859e172
+      id: 1432588725
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: UI
+        ObjectType: 4
+        guid: e58df230c63e2f4eb5b99625d09f8173
+      - ElementName: Select
+        ObjectType: 3
+        guid: ea9a8ae1d9f725449bc2e32da859e172
+      Path: Events/Default Work Unit/UI/Select
+      maxAttenuation: 0
+      maxDuration: 0.844461
+      minDuration: 0.72964644
+    - name: Snare
+      guid: 9fed14d801de4b4389e07dcf54df4d82
+      id: 3607016552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Snare
+        ObjectType: 4
+        guid: 9fed14d801de4b4389e07dcf54df4d82
+      Path: Events/Default Work Unit/Gameplay/Instruments/Snare
+      maxAttenuation: 0
+      maxDuration: 5.0236125
+      minDuration: 3.9139388
+    - name: Snare
+      guid: 27d6a6727b44364584710207b93dddaf
+      id: 3607016552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Snare
+        ObjectType: 4
+        guid: 9fed14d801de4b4389e07dcf54df4d82
+      - ElementName: Snare
+        ObjectType: 3
+        guid: 27d6a6727b44364584710207b93dddaf
+      Path: Events/Default Work Unit/Gameplay/Instruments/Snare/Snare
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SnareFumble
+      guid: 6666ea01acf4224b86cb4dab00b64880
+      id: 858660299
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Snare
+        ObjectType: 4
+        guid: 9fed14d801de4b4389e07dcf54df4d82
+      - ElementName: SnareFumble
+        ObjectType: 3
+        guid: 6666ea01acf4224b86cb4dab00b64880
+      Path: Events/Default Work Unit/Gameplay/Instruments/Snare/SnareFumble
+      maxAttenuation: 0
+      maxDuration: 2.5165663
+      minDuration: 2.5165663
+    - name: StartBass
+      guid: bc9bcccf04fa394490598cd236421f9c
+      id: 2043131726
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 7a9f0a181511e5459b8a2111363985bd
+      - ElementName: StartBass
+        ObjectType: 3
+        guid: bc9bcccf04fa394490598cd236421f9c
+      Path: Events/Default Work Unit/Gameplay/Instruments/Bass/StartBass
+      maxAttenuation: 0
+      maxDuration: 14.180667
+      minDuration: 14.180667
+    - name: StartButton
+      guid: 60161f5fea5dff4281caec6e5d203061
+      id: 1651515387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 8f54f4e385958d4992d1ce08438242a8
+      - ElementName: StartButton
+        ObjectType: 3
+        guid: 60161f5fea5dff4281caec6e5d203061
+      Path: Events/Default Work Unit/Lobby/StartButton
+      maxAttenuation: 0
+      maxDuration: 6.010625
+      minDuration: 6.010625
+    - name: StartKick
+      guid: 36d7b7db518cd34f99029261f5391cb8
+      id: 1544017333
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Kick
+        ObjectType: 4
+        guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      - ElementName: StartKick
+        ObjectType: 3
+        guid: 36d7b7db518cd34f99029261f5391cb8
+      Path: Events/Default Work Unit/Gameplay/Instruments/Kick/StartKick
+      maxAttenuation: 0
+      maxDuration: 11
+      minDuration: 11
+    - name: StartLobbyMusic
+      guid: 515b56869d48ab4c8153fd4823d38ea6
+      id: 1861621642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 8f54f4e385958d4992d1ce08438242a8
+      - ElementName: StartLobbyMusic
+        ObjectType: 3
+        guid: 515b56869d48ab4c8153fd4823d38ea6
+      Path: Events/Default Work Unit/Lobby/StartLobbyMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StartPiano
+      guid: 146340c710fe034eafae27ca79b1b468
+      id: 1320004250
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      - ElementName: StartPiano
+        ObjectType: 3
+        guid: 146340c710fe034eafae27ca79b1b468
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano/StartPiano
+      maxAttenuation: 0
+      maxDuration: 14.005333
+      minDuration: 14.005333
+    - name: StartPianoAudible
+      guid: 2a29e4ee81ac3e4e99d18f1a4e670d0e
+      id: 2990123148
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      - ElementName: StartPianoAudible
+        ObjectType: 3
+        guid: 2a29e4ee81ac3e4e99d18f1a4e670d0e
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano/StartPianoAudible
+      maxAttenuation: 0
+      maxDuration: 13.92
+      minDuration: 13.92
+    - name: StartSax
+      guid: d761f68e166be64db8706540e6bf5b14
+      id: 244923953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Sax
+        ObjectType: 4
+        guid: add9f2d9c751ef4dadc713b406e77b46
+      - ElementName: StartSax
+        ObjectType: 3
+        guid: d761f68e166be64db8706540e6bf5b14
+      Path: Events/Default Work Unit/Gameplay/Instruments/Sax/StartSax
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: StartSnare
+      guid: 524ea960a6df244eba7868cc787638bb
+      id: 3763135394
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Snare
+        ObjectType: 4
+        guid: 9fed14d801de4b4389e07dcf54df4d82
+      - ElementName: StartSnare
+        ObjectType: 3
+        guid: 524ea960a6df244eba7868cc787638bb
+      Path: Events/Default Work Unit/Gameplay/Instruments/Snare/StartSnare
+      maxAttenuation: 0
+      maxDuration: 13.013875
+      minDuration: 13.013875
+    - name: StartViolin
+      guid: 61b0958e156a6e4a8200b6f76bc69294
+      id: 3814131104
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Violin
+        ObjectType: 4
+        guid: b76af3ad39e10c47b0744cd0053b4c27
+      - ElementName: StartViolin
+        ObjectType: 3
+        guid: 61b0958e156a6e4a8200b6f76bc69294
+      Path: Events/Default Work Unit/Gameplay/Instruments/Violin/StartViolin
+      maxAttenuation: 0
+      maxDuration: 16.333332
+      minDuration: 16.333332
+    - name: StopBass
+      guid: d47352556f83814dacc131763750f6ad
+      id: 2036410168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 7a9f0a181511e5459b8a2111363985bd
+      - ElementName: StopBass
+        ObjectType: 3
+        guid: d47352556f83814dacc131763750f6ad
+      Path: Events/Default Work Unit/Gameplay/Instruments/Bass/StopBass
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopKick
+      guid: 7ff7602dad07c344adb150dfc85be36e
+      id: 2066293655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Kick
+        ObjectType: 4
+        guid: 4d88cf8af8dc3b4eac5ecb3c4e0d560e
+      - ElementName: StopKick
+        ObjectType: 3
+        guid: 7ff7602dad07c344adb150dfc85be36e
+      Path: Events/Default Work Unit/Gameplay/Instruments/Kick/StopKick
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopLobbyMusic
+      guid: 702112853cef944989d91f4753570757
+      id: 3675974108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 8f54f4e385958d4992d1ce08438242a8
+      - ElementName: StopLobbyMusic
+        ObjectType: 3
+        guid: 702112853cef944989d91f4753570757
+      Path: Events/Default Work Unit/Lobby/StopLobbyMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopPiano
+      guid: 9725fa382650fc41ab54ff7e06be2e7f
+      id: 4024332668
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Piano
+        ObjectType: 4
+        guid: f0781f2aeb0d844e8d80817baeb49330
+      - ElementName: StopPiano
+        ObjectType: 3
+        guid: 9725fa382650fc41ab54ff7e06be2e7f
+      Path: Events/Default Work Unit/Gameplay/Instruments/Piano/StopPiano
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopSax
+      guid: fc2a8116484eb74baced9c6a9c637f71
+      id: 3239805151
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Sax
+        ObjectType: 4
+        guid: add9f2d9c751ef4dadc713b406e77b46
+      - ElementName: StopSax
+        ObjectType: 3
+        guid: fc2a8116484eb74baced9c6a9c637f71
+      Path: Events/Default Work Unit/Gameplay/Instruments/Sax/StopSax
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopSnare
+      guid: 0fd51769bfc677499440792ea7c400f0
+      id: 514806976
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Snare
+        ObjectType: 4
+        guid: 9fed14d801de4b4389e07dcf54df4d82
+      - ElementName: StopSnare
+        ObjectType: 3
+        guid: 0fd51769bfc677499440792ea7c400f0
+      Path: Events/Default Work Unit/Gameplay/Instruments/Snare/StopSnare
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopViolin
+      guid: 57154fe8c5fd0f4e8605031b33880c10
+      id: 825056626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Violin
+        ObjectType: 4
+        guid: b76af3ad39e10c47b0744cd0053b4c27
+      - ElementName: StopViolin
+        ObjectType: 3
+        guid: 57154fe8c5fd0f4e8605031b33880c10
+      Path: Events/Default Work Unit/Gameplay/Instruments/Violin/StopViolin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UI
+      guid: e58df230c63e2f4eb5b99625d09f8173
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: UI
+        ObjectType: 4
+        guid: e58df230c63e2f4eb5b99625d09f8173
+      Path: Events/Default Work Unit/UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Unclickable
+      guid: 7593088a4fccfe4196ebfa09a7498f7d
+      id: 3376018208
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: UI
+        ObjectType: 4
+        guid: e58df230c63e2f4eb5b99625d09f8173
+      - ElementName: Unclickable
+        ObjectType: 3
+        guid: 7593088a4fccfe4196ebfa09a7498f7d
+      Path: Events/Default Work Unit/UI/Unclickable
+      maxAttenuation: 0
+      maxDuration: 0.6580243
+      minDuration: 0.5768279
+    - name: Violin
+      guid: e257037f08330a47a81db9773726f893
+      id: 3063529226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Violin
+        ObjectType: 4
+        guid: b76af3ad39e10c47b0744cd0053b4c27
+      - ElementName: Violin
+        ObjectType: 3
+        guid: e257037f08330a47a81db9773726f893
+      Path: Events/Default Work Unit/Gameplay/Instruments/Violin/Violin
+      maxAttenuation: 0
+      maxDuration: 3.9791667
+      minDuration: 3.8541667
+    - name: Violin
+      guid: b76af3ad39e10c47b0744cd0053b4c27
+      id: 3063529226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Violin
+        ObjectType: 4
+        guid: b76af3ad39e10c47b0744cd0053b4c27
+      Path: Events/Default Work Unit/Gameplay/Instruments/Violin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ViolinFumble
+      guid: 4b521ad80ff8544793b6ac526d617b56
+      id: 53243757
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a47538393f34c144a7e95ecad93f4db9
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: ae629d7d35e13a4a9d6fbaa9a7b3aaf4
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: ec586bf6a7782241913aaea7bc47089e
+      - ElementName: Violin
+        ObjectType: 4
+        guid: b76af3ad39e10c47b0744cd0053b4c27
+      - ElementName: ViolinFumble
+        ObjectType: 3
+        guid: 4b521ad80ff8544793b6ac526d617b56
+      Path: Events/Default Work Unit/Gameplay/Instruments/Violin/ViolinFumble
+      maxAttenuation: 0
+      maxDuration: 3.262683
+      minDuration: 3.262683
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4ccdba94f410bc488c934c8b313f30ae
+    ParentPath: Game Parameters/Default Work Unit
+    guid: 4ccdba94f410bc488c934c8b313f30ae
+    GuidInternal: 
+    m_lastTime: -8584678517614775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 29a2a4495a3df84a8d7df6863475da0a
+    ParentPath: States/Default Work Unit
+    guid: 29a2a4495a3df84a8d7df6863475da0a
+    GuidInternal: 
+    m_lastTime: -8584607509134775808
+    List:
+    - name: Lobby
+      guid: 535a165f48241f42a618144df489e4b6
+      id: 290285391
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a4495a3df84a8d7df6863475da0a
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 535a165f48241f42a618144df489e4b6
+      Path: States/Default Work Unit/Lobby
+      values: []
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PlayerCount
+      guid: 581c4fa492213242bb041d73b7d9f4a9
+      id: 3983502639
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a4495a3df84a8d7df6863475da0a
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 535a165f48241f42a618144df489e4b6
+      - ElementName: PlayerCount
+        ObjectType: 9
+        guid: 581c4fa492213242bb041d73b7d9f4a9
+      Path: States/Default Work Unit/Lobby/PlayerCount
+      values:
+      - name: _0
+        guid: ce6c7489a988d34eacf8b9d4c3be1962
+        id: 846646256
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: PlayerCount
+          ObjectType: 9
+          guid: 581c4fa492213242bb041d73b7d9f4a9
+        - ElementName: _0
+          ObjectType: 8
+          guid: ce6c7489a988d34eacf8b9d4c3be1962
+      - name: _1
+        guid: 67d66586592e9644a8df5f870ef35d2d
+        id: 846646257
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: PlayerCount
+          ObjectType: 9
+          guid: 581c4fa492213242bb041d73b7d9f4a9
+        - ElementName: _1
+          ObjectType: 8
+          guid: 67d66586592e9644a8df5f870ef35d2d
+      - name: _2
+        guid: ae277a8f67a8f347bcf8336e3c5a92e9
+        id: 846646258
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: PlayerCount
+          ObjectType: 9
+          guid: 581c4fa492213242bb041d73b7d9f4a9
+        - ElementName: _2
+          ObjectType: 8
+          guid: ae277a8f67a8f347bcf8336e3c5a92e9
+      - name: _3
+        guid: dec4e51fc908d74a812462f53f3e2f9e
+        id: 846646259
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: PlayerCount
+          ObjectType: 9
+          guid: 581c4fa492213242bb041d73b7d9f4a9
+        - ElementName: _3
+          ObjectType: 8
+          guid: dec4e51fc908d74a812462f53f3e2f9e
+      - name: None
+        guid: 98da581ace67df4ab3829a68a6b75693
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: PlayerCount
+          ObjectType: 9
+          guid: 581c4fa492213242bb041d73b7d9f4a9
+        - ElementName: None
+          ObjectType: 8
+          guid: 98da581ace67df4ab3829a68a6b75693
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WinInstrument
+      guid: 578dc694a7760247aaeee874ce7f1bde
+      id: 1520509566
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a2a4495a3df84a8d7df6863475da0a
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: 535a165f48241f42a618144df489e4b6
+      - ElementName: WinInstrument
+        ObjectType: 9
+        guid: 578dc694a7760247aaeee874ce7f1bde
+      Path: States/Default Work Unit/Lobby/WinInstrument
+      values:
+      - name: Bass
+        guid: c4c4731844e581439128754b0b19d0f7
+        id: 1291433344
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Bass
+          ObjectType: 8
+          guid: c4c4731844e581439128754b0b19d0f7
+      - name: Kick
+        guid: 6b9a2fa19459c54985f62879c75bd97b
+        id: 2181839183
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Kick
+          ObjectType: 8
+          guid: 6b9a2fa19459c54985f62879c75bd97b
+      - name: None
+        guid: d8f39585942b1249bb3fc312a71ff73b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: None
+          ObjectType: 8
+          guid: d8f39585942b1249bb3fc312a71ff73b
+      - name: Piano
+        guid: 1a88c07085a0074688ef0abc7756000c
+        id: 1324340420
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Piano
+          ObjectType: 8
+          guid: 1a88c07085a0074688ef0abc7756000c
+      - name: Sax
+        guid: 3011496b9136fb4ba8246bf632719172
+        id: 443572615
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Sax
+          ObjectType: 8
+          guid: 3011496b9136fb4ba8246bf632719172
+      - name: Snare
+        guid: bacdbfdbf43b484d9eaaaaacbda6ff8c
+        id: 3607016552
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Snare
+          ObjectType: 8
+          guid: bacdbfdbf43b484d9eaaaaacbda6ff8c
+      - name: Violin
+        guid: ee645efb2cf0f94cbab72f358a4987a2
+        id: 3063529226
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 29a2a4495a3df84a8d7df6863475da0a
+        - ElementName: Lobby
+          ObjectType: 4
+          guid: 535a165f48241f42a618144df489e4b6
+        - ElementName: WinInstrument
+          ObjectType: 9
+          guid: 578dc694a7760247aaeee874ce7f1bde
+        - ElementName: Violin
+          ObjectType: 8
+          guid: ee645efb2cf0f94cbab72f358a4987a2
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: eb986a8ebfd8254780e0d10a497acafe
+    ParentPath: Switches/Default Work Unit
+    guid: eb986a8ebfd8254780e0d10a497acafe
+    GuidInternal: 
+    m_lastTime: -8584607509134775808
+    List:
+    - name: Instruments
+      guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      id: 559901361
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      Path: Switches/Default Work Unit/Instruments
+      values: []
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Lobby
+      guid: b5b3f1b33af16143b2ba471d7ff38bc4
+      id: 290285391
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: b5b3f1b33af16143b2ba471d7ff38bc4
+      Path: Switches/Default Work Unit/Lobby
+      values: []
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StartBass
+      guid: 8713164f1f74d042ade92b242d6c9242
+      id: 2043131726
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      - ElementName: StartBass
+        ObjectType: 11
+        guid: 8713164f1f74d042ade92b242d6c9242
+      Path: Switches/Default Work Unit/Instruments/StartBass
+      values:
+      - name: _0
+        guid: a48b73eced53254ab8e190d73a956d90
+        id: 846646256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartBass
+          ObjectType: 11
+          guid: 8713164f1f74d042ade92b242d6c9242
+        - ElementName: _0
+          ObjectType: 10
+          guid: a48b73eced53254ab8e190d73a956d90
+      - name: _1
+        guid: ecd9d0858ff2f94595887af78d6cb525
+        id: 846646257
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartBass
+          ObjectType: 11
+          guid: 8713164f1f74d042ade92b242d6c9242
+        - ElementName: _1
+          ObjectType: 10
+          guid: ecd9d0858ff2f94595887af78d6cb525
+      - name: _2
+        guid: 3c9a2835db987845a0612c389a4e8556
+        id: 846646258
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartBass
+          ObjectType: 11
+          guid: 8713164f1f74d042ade92b242d6c9242
+        - ElementName: _2
+          ObjectType: 10
+          guid: 3c9a2835db987845a0612c389a4e8556
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StartPiano
+      guid: 8c8b22714b5c014eb43472f53de5e461
+      id: 1320004250
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      - ElementName: StartPiano
+        ObjectType: 11
+        guid: 8c8b22714b5c014eb43472f53de5e461
+      Path: Switches/Default Work Unit/Instruments/StartPiano
+      values:
+      - name: _0
+        guid: e9c1ca93b6f11d4ab9441111b501741e
+        id: 846646256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartPiano
+          ObjectType: 11
+          guid: 8c8b22714b5c014eb43472f53de5e461
+        - ElementName: _0
+          ObjectType: 10
+          guid: e9c1ca93b6f11d4ab9441111b501741e
+      - name: _1
+        guid: 902686259f60284eb8c2f0a0392ffbe8
+        id: 846646257
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartPiano
+          ObjectType: 11
+          guid: 8c8b22714b5c014eb43472f53de5e461
+        - ElementName: _1
+          ObjectType: 10
+          guid: 902686259f60284eb8c2f0a0392ffbe8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StartSax
+      guid: 9de72ffc16d64644b0494faf1eee7790
+      id: 244923953
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      - ElementName: StartSax
+        ObjectType: 11
+        guid: 9de72ffc16d64644b0494faf1eee7790
+      Path: Switches/Default Work Unit/Instruments/StartSax
+      values:
+      - name: _0
+        guid: a65705fda4825548b1218c7d00859a4f
+        id: 846646256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSax
+          ObjectType: 11
+          guid: 9de72ffc16d64644b0494faf1eee7790
+        - ElementName: _0
+          ObjectType: 10
+          guid: a65705fda4825548b1218c7d00859a4f
+      - name: _1
+        guid: 6be8df4e89c46a4e9e4e5d533774c086
+        id: 846646257
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSax
+          ObjectType: 11
+          guid: 9de72ffc16d64644b0494faf1eee7790
+        - ElementName: _1
+          ObjectType: 10
+          guid: 6be8df4e89c46a4e9e4e5d533774c086
+      - name: _2
+        guid: 4f6c06228666d144975350a057b9c634
+        id: 846646258
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSax
+          ObjectType: 11
+          guid: 9de72ffc16d64644b0494faf1eee7790
+        - ElementName: _2
+          ObjectType: 10
+          guid: 4f6c06228666d144975350a057b9c634
+      - name: _3
+        guid: c4b876a7abe56f46966f7a9f4c89ffae
+        id: 846646259
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSax
+          ObjectType: 11
+          guid: 9de72ffc16d64644b0494faf1eee7790
+        - ElementName: _3
+          ObjectType: 10
+          guid: c4b876a7abe56f46966f7a9f4c89ffae
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StartSnare
+      guid: e735f07a12959a4a9c4a663260795ecf
+      id: 3763135394
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      - ElementName: StartSnare
+        ObjectType: 11
+        guid: e735f07a12959a4a9c4a663260795ecf
+      Path: Switches/Default Work Unit/Instruments/StartSnare
+      values:
+      - name: _0
+        guid: d3c43a19d328f94b96905945f070739d
+        id: 846646256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSnare
+          ObjectType: 11
+          guid: e735f07a12959a4a9c4a663260795ecf
+        - ElementName: _0
+          ObjectType: 10
+          guid: d3c43a19d328f94b96905945f070739d
+      - name: _1
+        guid: 48a45bd989d07f43b3f91b47554a25a6
+        id: 846646257
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSnare
+          ObjectType: 11
+          guid: e735f07a12959a4a9c4a663260795ecf
+        - ElementName: _1
+          ObjectType: 10
+          guid: 48a45bd989d07f43b3f91b47554a25a6
+      - name: _2
+        guid: 20ca8361e041de4d814d453af313b3cf
+        id: 846646258
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartSnare
+          ObjectType: 11
+          guid: e735f07a12959a4a9c4a663260795ecf
+        - ElementName: _2
+          ObjectType: 10
+          guid: 20ca8361e041de4d814d453af313b3cf
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StartViolin
+      guid: 900de8aa8faf1b43838d0c063bb6b565
+      id: 3814131104
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb986a8ebfd8254780e0d10a497acafe
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+      - ElementName: StartViolin
+        ObjectType: 11
+        guid: 900de8aa8faf1b43838d0c063bb6b565
+      Path: Switches/Default Work Unit/Instruments/StartViolin
+      values:
+      - name: _0
+        guid: ae75862854ebd545bd11ede9208fb56a
+        id: 846646256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartViolin
+          ObjectType: 11
+          guid: 900de8aa8faf1b43838d0c063bb6b565
+        - ElementName: _0
+          ObjectType: 10
+          guid: ae75862854ebd545bd11ede9208fb56a
+      - name: _1
+        guid: a9dc586c848492448163e31c72311c8d
+        id: 846646257
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartViolin
+          ObjectType: 11
+          guid: 900de8aa8faf1b43838d0c063bb6b565
+        - ElementName: _1
+          ObjectType: 10
+          guid: a9dc586c848492448163e31c72311c8d
+      - name: _2
+        guid: 820d959447c55a448f7f06b89c4e8aa0
+        id: 846646258
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartViolin
+          ObjectType: 11
+          guid: 900de8aa8faf1b43838d0c063bb6b565
+        - ElementName: _2
+          ObjectType: 10
+          guid: 820d959447c55a448f7f06b89c4e8aa0
+      - name: _3
+        guid: 77bf860404c49f46b89e883f54b45a2a
+        id: 846646259
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: eb986a8ebfd8254780e0d10a497acafe
+        - ElementName: Instruments
+          ObjectType: 4
+          guid: 8bfd4fd4705ca442bb3ac6e1bc2de298
+        - ElementName: StartViolin
+          ObjectType: 11
+          guid: 900de8aa8faf1b43838d0c063bb6b565
+        - ElementName: _3
+          ObjectType: 10
+          guid: 77bf860404c49f46b89e883f54b45a2a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cd2334086e5ecb48aad0a006f1f71fea
+    ParentPath: Triggers/Default Work Unit
+    guid: cd2334086e5ecb48aad0a006f1f71fea
+    GuidInternal: 
+    m_lastTime: -8584678517574775808
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

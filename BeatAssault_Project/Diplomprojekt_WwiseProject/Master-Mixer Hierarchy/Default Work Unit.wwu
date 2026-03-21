@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52694ED5-1FFF-41AD-AAAF-E32A8B1480C2}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{52694ED5-1FFF-41AD-AAAF-E32A8B1480C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{599B1E94-DCAD-4C4A-931E-F8C62261DF34}" WorkUnitID="{18689CBA-BF1A-4C8C-88C3-52AC1FC455CE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

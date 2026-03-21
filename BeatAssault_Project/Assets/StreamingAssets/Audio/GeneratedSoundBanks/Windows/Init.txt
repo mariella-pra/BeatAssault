@@ -1,0 +1,25 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1520509566	WinInstrument			\Default Work Unit\Lobby\WinInstrument	
+	3983502639	PlayerCount			\Default Work Unit\Lobby\PlayerCount	
+
+State	ID	Name	State Group			Notes
+	443572615	Sax	WinInstrument			
+	748895195	None	WinInstrument			
+	1291433344	Bass	WinInstrument			
+	1324340420	Piano	WinInstrument			
+	2181839183	Kick	WinInstrument			
+	3063529226	Violin	WinInstrument			
+	3607016552	Snare	WinInstrument			
+	748895195	None	PlayerCount			
+	846646256	_0	PlayerCount			
+	846646257	_1	PlayerCount			
+	846646258	_2	PlayerCount			
+	846646259	_3	PlayerCount			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	4056684167	Master			\Default Work Unit\Master	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

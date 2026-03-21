@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49A4A229-3D5A-4AF8-8D7D-F6863475DA0A}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{49A4A229-3D5A-4AF8-8D7D-F6863475DA0A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Lobby" ID="{5F165A53-2448-421F-A618-144DF489E4B6}" ShortID="721993057">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<StateGroup Name="PlayerCount" ID="{A44F1C58-2192-4232-BB04-1D73B7D9F4A9}">
+							<ChildrenList>
+								<State Name="None" ID="{1A58DA98-67CE-4ADF-B382-9A68A6B75693}"/>
+								<State Name="_1" ID="{8665D667-2E59-4496-A8DF-5F870EF35D2D}"/>
+								<State Name="_2" ID="{8F7A27AE-A867-47F3-BCF8-336E3C5A92E9}"/>
+								<State Name="_3" ID="{1FE5C4DE-08C9-4AD7-8124-62F53F3E2F9E}"/>
+								<State Name="_0" ID="{89746CCE-88A9-4ED3-ACF8-B9D4C3BE1962}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="WinInstrument" ID="{94C68D57-76A7-4702-AAEE-E874CE7F1BDE}">
+							<ChildrenList>
+								<State Name="None" ID="{8595F3D8-2B94-4912-BB3F-C312A71FF73B}"/>
+								<State Name="Bass" ID="{1873C4C4-E544-4381-9128-754B0B19D0F7}"/>
+								<State Name="Piano" ID="{70C0881A-A085-4607-88EF-0ABC7756000C}"/>
+								<State Name="Sax" ID="{6B491130-3691-4BFB-A824-6BF632719172}"/>
+								<State Name="Violin" ID="{FB5E64EE-F02C-4CF9-BAB7-2F358A4987A2}"/>
+								<State Name="Snare" ID="{DBBFCDBA-3BF4-4D48-9EAA-AAACBDA6FF8C}"/>
+								<State Name="Kick" ID="{A12F9A6B-5994-49C5-85F6-2879C75BD97B}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

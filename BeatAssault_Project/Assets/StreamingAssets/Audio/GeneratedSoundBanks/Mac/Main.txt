@@ -1,0 +1,143 @@
+Event	ID	Name			Wwise Object Path	Notes
+	53243757	ViolinFumble			\Default Work Unit\Gameplay\Instruments\Violin\ViolinFumble	
+	244923953	StartSax			\Default Work Unit\Gameplay\Instruments\Sax\StartSax	
+	443572615	Sax			\Default Work Unit\Gameplay\Instruments\Sax\Sax	
+	479216828	GameContinue			\Default Work Unit\Gameplay\GameContinue	
+	514806976	StopSnare			\Default Work Unit\Gameplay\Instruments\Snare\StopSnare	
+	671786287	GamePause			\Default Work Unit\Gameplay\GamePause	
+	825056626	StopViolin			\Default Work Unit\Gameplay\Instruments\Violin\StopViolin	
+	858660299	SnareFumble			\Default Work Unit\Gameplay\Instruments\Snare\SnareFumble	
+	1135953743	PianoFumble			\Default Work Unit\Gameplay\Instruments\Piano\PianoFumble	
+	1291433344	Bass			\Default Work Unit\Gameplay\Instruments\Bass\Bass	
+	1320004250	StartPiano			\Default Work Unit\Gameplay\Instruments\Piano\StartPiano	
+	1324340420	Piano			\Default Work Unit\Gameplay\Instruments\Piano\Piano	
+	1432588725	Select			\Default Work Unit\UI\Select	
+	1544017333	StartKick			\Default Work Unit\Gameplay\Instruments\Kick\StartKick	
+	1651515387	StartButton			\Default Work Unit\Lobby\StartButton	
+	1776280627	GameWin			\Default Work Unit\Gameplay\GameWin	
+	1861621642	StartLobbyMusic			\Default Work Unit\Lobby\StartLobbyMusic	
+	1936994688	SaxFumble			\Default Work Unit\Gameplay\Instruments\Sax\SaxFumble	
+	2036410168	StopBass			\Default Work Unit\Gameplay\Instruments\Bass\StopBass	
+	2043131726	StartBass			\Default Work Unit\Gameplay\Instruments\Bass\StartBass	
+	2066293655	StopKick			\Default Work Unit\Gameplay\Instruments\Kick\StopKick	
+	2181839183	Kick			\Default Work Unit\Gameplay\Instruments\Kick\Kick	
+	2409465559	GameStop			\Default Work Unit\Gameplay\GameStop	
+	2990123148	StartPianoAudible			\Default Work Unit\Gameplay\Instruments\Piano\StartPianoAudible	
+	3063529226	Violin			\Default Work Unit\Gameplay\Instruments\Violin\Violin	
+	3239805151	StopSax			\Default Work Unit\Gameplay\Instruments\Sax\StopSax	
+	3343302824	NoInstrumentFumble			\Default Work Unit\Gameplay\Instruments\_NoInstrument\NoInstrumentFumble	
+	3376018208	Unclickable			\Default Work Unit\UI\Unclickable	
+	3379262086	NoInstrumentHit			\Default Work Unit\Gameplay\Instruments\_NoInstrument\NoInstrumentHit	
+	3474421731	BassFumble			\Default Work Unit\Gameplay\Instruments\Bass\BassFumble	
+	3607016552	Snare			\Default Work Unit\Gameplay\Instruments\Snare\Snare	
+	3675974108	StopLobbyMusic			\Default Work Unit\Lobby\StopLobbyMusic	
+	3753593413	Hover			\Default Work Unit\UI\Hover	
+	3763135394	StartSnare			\Default Work Unit\Gameplay\Instruments\Snare\StartSnare	
+	3814131104	StartViolin			\Default Work Unit\Gameplay\Instruments\Violin\StartViolin	
+	3875582670	PlayerJoin			\Default Work Unit\Lobby\PlayerJoin	
+	3928080424	KickFumble			\Default Work Unit\Gameplay\Instruments\Kick\KickFumble	
+	4024332668	StopPiano			\Default Work Unit\Gameplay\Instruments\Piano\StopPiano	
+	4058101365	GameStart			\Default Work Unit\Gameplay\GameStart	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	244923953	StartSax			\Default Work Unit\Instruments\StartSax	
+	1320004250	StartPiano			\Default Work Unit\Instruments\StartPiano	
+	2043131726	StartBass			\Default Work Unit\Instruments\StartBass	
+	3763135394	StartSnare			\Default Work Unit\Instruments\StartSnare	
+	3814131104	StartViolin			\Default Work Unit\Instruments\StartViolin	
+
+Switch	ID	Name	Switch Group			Notes
+	846646256	_0	StartSax			
+	846646257	_1	StartSax			
+	846646258	_2	StartSax			
+	846646259	_3	StartSax			
+	846646256	_0	StartPiano			
+	846646257	_1	StartPiano			
+	846646256	_0	StartBass			
+	846646257	_1	StartBass			
+	846646258	_2	StartBass			
+	846646256	_0	StartSnare			
+	846646257	_1	StartSnare			
+	846646258	_2	StartSnare			
+	846646256	_0	StartViolin			
+	846646257	_1	StartViolin			
+	846646258	_2	StartViolin			
+	846646259	_3	StartViolin			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1520509566	WinInstrument			\Default Work Unit\Lobby\WinInstrument	
+	3983502639	PlayerCount			\Default Work Unit\Lobby\PlayerCount	
+
+State	ID	Name	State Group			Notes
+	443572615	Sax	WinInstrument			
+	748895195	None	WinInstrument			
+	1291433344	Bass	WinInstrument			
+	1324340420	Piano	WinInstrument			
+	2181839183	Kick	WinInstrument			
+	3063529226	Violin	WinInstrument			
+	3607016552	Snare	WinInstrument			
+	748895195	None	PlayerCount			
+	846646256	_0	PlayerCount			
+	846646257	_1	PlayerCount			
+	846646258	_2	PlayerCount			
+	846646259	_3	PlayerCount			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7962741	2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Violin\Snippets\2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Violin\2		749732
+	35921864	Kick	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Kick_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Kick		671016
+	58518621	Orainsula_Insert 16	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GamePause\Orainsula_Insert 16_F4A34D9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Pause\Orainsula_Insert 16		814504
+	65930483	3	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Violin\Snippets\3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Violin\3		740352
+	67367512	PianoFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\PianoFumble_D81176FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\PianoFumble		549956
+	97024499	Bass	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GameplayBGMusic\Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\BG_Music\BG_Music_01\Bass		2385056
+	120592245	Orainsula_Insert 18	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GamePause\Orainsula_Insert 18_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Pause\Orainsula_Insert 18		833588
+	120959968	0	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Sax\Snippets\0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Sax\0		712288
+	127913759	UI_UnClickable	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\UI\UI_UnClickable_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_UnClickable		122840
+	149237009	UI_Hover	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\UI\UI_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover		183068
+	158855419	JoinTom_1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\JoinTom_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\PlayerJoin\JoinTom_1		388620
+	163879217	HiHat1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GameplayBGMusic\HiHat1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\BG_Music\BG_Music_02\HiHat1		2144416
+	170720851	Bass	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Bass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Bass		1374568
+	171076997	0	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Piano\Snippets\0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Piano\0		933128
+	171275262	2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Snare\Snippets\2_CE8EA0BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Snare\2		964628
+	174001939	Orainsula_Insert 17	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GamePause\Orainsula_Insert 17_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Pause\Orainsula_Insert 17		833588
+	196935419	1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Sax\Snippets\1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Sax\1		676288
+	207117145	ViolinFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\ViolinFumble_7650B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\ViolinFumble		626532
+	244101302	Straccio	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GameplayBGMusic\Straccio_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\BG_Music\BG_Music_01\Straccio		2189472
+	246417316	Sax_w_End	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Sax\Sax_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Sax\Sax_w_End\Sax_w_End		2558132
+	295902280	Empty	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Empty\Empty_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Indicator_Manager\Empty\Empty		1820120
+	314401176	Orainsula_Insert 14	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GamePause\Orainsula_Insert 14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Pause\Orainsula_Insert 14		833588
+	319234128	JoinTom_4	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\JoinTom_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\PlayerJoin\JoinTom_4		388620
+	323282238	1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Violin\Snippets\1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Violin\1		763068
+	336095540	Orainsula_Insert 15	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GamePause\Orainsula_Insert 15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Pause\Orainsula_Insert 15		833588
+	348394866	Kick	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Kick\Snippets\0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Kick		337556
+	402590125	Violin	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Violin\Violin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Violin\Violin\Violin		1619692
+	422643614	2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Sax\Snippets\2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Sax\2		644288
+	430081571	2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Bass\Snippets\2_A1177183.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Bass\2		1139492
+	443700925	Snare	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Snare\Snare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Snare\Snare_End\Snare		1249764
+	468223575	3	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Sax\Snippets\4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Sax\3		697940
+	497845941	StartGameButton	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\StartGameButton_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\StartGameButton		1154136
+	511734635	1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Bass\Snippets\1_61F9D15C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Bass\1		1274152
+	522238437	Piano	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Piano\Piano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Piano\Piano\Piano		1344672
+	546564389	Snare	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Snare_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Snare		592164
+	574264198	AudiblePiano	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Piano\AudiblePiano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\PianoAudible\Piano\AudiblePiano		1336480
+	622220930	Sax	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Sax_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Sax		938848
+	648753235	0	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Violin\Snippets\0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Violin\0		764400
+	651166916	JoinTom_2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\JoinTom_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\PlayerJoin\JoinTom_2		388620
+	706522323	LobbyMusic	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\LobbyMusic\LobbyMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Lobby\LobbyMusic\LobbyMusic\LobbyMusic		12386972
+	709026292	KickFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\KickFumble_F3FA18F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\KickFumble		438192
+	718768914	Bass	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Bass\Pattern_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Bass\Bass\Bass		1361504
+	729574633	BassFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\BassFumble_3CF0FDEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\BassFumble		557244
+	731613234	Violin	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Violin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Violin		988160
+	749588340	Kick	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Kick\Kick_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InstumentPatterns\Kick\Kick\Kick		1067168
+	754517858	0	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Bass\Snippets\0_11628894.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Bass\0		1190440
+	780668584	1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Piano\Snippets\1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Piano\1		715488
+	804823732	1	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Snare\Snippets\1_944F2B15.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Snare\1		837624
+	866557603	0	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Patterns\Snare\Snippets\0_4A314120.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentHits\Snare\0		751572
+	890717024	JoinCrash	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\JoinCrash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\PlayerJoin\JoinCrash		388620
+	925619336	SnareFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\SnareFumble_B4E81D17.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\SnareFumble		483276
+	971929751	Piano	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\WinSounds\Piano_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Win\Piano		1600352
+	976047343	HiHat2	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GameplayBGMusic\HiHat2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\BG_Music\BG_Music_01\HiHat2		2141504
+	982837516	UI_Select	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\UI\UI_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Select		159908
+	1021969532	JoinTom_3	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\Lobby\JoinTom_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lobby\PlayerJoin\JoinTom_3		388620
+	1063586248	SnareRim	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\GameplayBGMusic\SnareRim_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\BG_Music\BG_Music_01\SnareRim		2265248
+	1067630322	SaxFumble	D:\_5AHMNG\DiplomProject_Repository\BeatAssault\Diplomprojekt\Diplomprojekt_WwiseProject\.cache\Mac\SFX\InstrumentFumbles\SaxFumble_00817529.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\InstrumentFumbles\SaxFumble		426228
+
